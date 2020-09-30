@@ -1,0 +1,12 @@
+{
+  "packages": [
+    "applications/client",
+    "applications/core",
+    "applications/server/api",
+    "applications/server/business",
+    "applications/server/database"
+  ],
+  "npmClient": "yarn",
+  "version": "independent",
+  "useWorkspaces": true
+}

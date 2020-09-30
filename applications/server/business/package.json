@@ -1,0 +1,25 @@
+{
+  "name": "@gathering/business",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "ts-node-dev ./src/index.ts"
+  },
+  "dependencies": {
+    "@gathering/core": "*",
+    "@gathering/database": "*",
+    "bcryptjs": "^2.4.3",
+    "fluture": "^12.3.1",
+    "fp-ts": "^2.7.1",
+    "fp-ts-fluture": "^0.6.5",
+    "sanctuary": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/sanctuary": "^3.0.2",
+    "ts-node-dev": "^1.0.0-pre.54",
+    "typescript": "^3.9.7"
+  }
+}

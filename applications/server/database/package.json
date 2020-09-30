@@ -1,0 +1,29 @@
+{
+  "name": "@gathering/database",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts",
+    "build": "tsc",
+    "generate": "prisma generate",
+    "migrate:save": "npx prisma migrate save --name init --experimental",
+    "migrate:up": "npx prisma migrate up --experimental"
+  },
+  "dependencies": {
+    "@gathering/core": "*",
+    "@prisma/client": "^2.2.2",
+    "@types/node": "^14.0.23",
+    "fluture": "^12.3.1",
+    "fp-ts": "^2.7.1",
+    "fp-ts-fluture": "^0.6.5",
+    "sanctuary": "^3.1.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "@prisma/cli": "^2.2.2",
+    "@types/sanctuary": "^3.0.2"
+  }
+}

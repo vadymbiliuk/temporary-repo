@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": "packages/*",
+    "target": "es5",
+    "module": "commonjs",
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "removeComments": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+
+    "paths": {
+      "@gathering/client/*": ["client/src/*"],
+      "@gathering/core/*": ["core/src/*"],
+      "@gathering/api/*": ["server/api/src/*"],
+      "@gathering/business/*": ["server/business/src/*"],
+      "@gathering/database/*": ["server/database/src/*"]
+    }
+  },
+  "exclude": ["**/*.spec.ts", "**/node_modules/**"]
+}

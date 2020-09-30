@@ -1,0 +1,9 @@
+**/node_modules
+**/yarn-error.lock
+**/.DS_Store
+
+**/__generated__
+
+**/.env
+
+**/build
